@@ -52,9 +52,9 @@ void PracticalBoundsCheck::applyFilter(const std::vector<bool> & apply,
 
   // Sanity checks
   if (filtervars.nvars() == 0) {
-    oops::Log::error() << "No variables will be filtered out in filter, MORON! "
+    oops::Log::error() << "No variables will be filtered out in filter, my friend."
                        << config_ << std::endl;
-    ABORT("No variables specified to be filtered out in filter, IDIOT!");
+    ABORT("No variables specified to be filtered out in filter, WITH ALL DUE RESPECT SIR OR MA'AM!");
   }
 
   // Loop over all variables to filter
